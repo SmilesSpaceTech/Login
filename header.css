@@ -1,18 +1,3 @@
-
-@media only screen and (max-width: 600px) {
-  /* CSS declarations go here */
-  body {
-    font-size: auto;
-  }
-  .container {
-    max-width: auto;
-  }
-  img {
-    max-width: 100%;
-    height: auto;
-  }
-}
-
 *
 {
   padding: 0;
@@ -37,9 +22,9 @@ body{
   color: aliceblue;
 }
 .menu-bar ul li{
-  width: 100%;
-  margin: 2%;
-  padding: 2%;
+  width: 120px;
+  margin: 15px;
+  padding: 15px;
 }
 .menu-bar ul li a{
   text-decoration: none;
@@ -47,7 +32,7 @@ body{
 }
 .active, .menu-bar ul li:hover{
   background: rgb(248, 6, 6);
-  border-radius: 1px;
+  border-radius: 3px;
 }
 .sub-menu-1{
   display: none;
@@ -56,15 +41,16 @@ body{
   display: block;
   position: absolute;
   background-color: rgb(14, 43, 212);
-  margin-top: 2%;
-  margin-left: -2%;
+  margin-top: 15px;
+  margin-left: -15px;
 }
 .menu-bar ul li:hover .sub-menu-1 ul{
   display: block;
-  margin: 1.5%;
+  margin: 10px;
 }
 .menu-bar ul li:hover .sub-menu-1 ul li{
-  width: 100%;
+  width: 150px;
+  padding: 10px;
   border-bottom: 1px dotted #fff;
   background: transparent;
   border-radius: 0;
@@ -80,7 +66,7 @@ body{
 /* Clear floats after the columns */
 .row:after {
   content: "";
-  display: table-column;
+  display: table;
   clear: both;
 }
 
@@ -101,17 +87,18 @@ body{
 
 .sub_footer{
   display: flex;
+  margin: 10px;
 }
 
 .column1{
-  padding: 2%;
-  font-size: 2%;
+  padding:20px;
+  font-size: 20px;
   width: 25%;
 }
 .socials{
   background: brown;
   width: 100%;
-  height: auto;
+  height: 100px;
   display: grid;
   align-items: baseline;
   justify-content: center;
@@ -120,8 +107,9 @@ body{
 
 /* Style all font awesome icons */
 .fa {
-  padding: 2%;
-
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
   text-align: center;
   text-decoration: none;
 }
