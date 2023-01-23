@@ -1,3 +1,23 @@
+@media screen and (max-width: 600px) {
+  .element {
+    width: 100%;
+  } 
+}
+
+@media only screen and (max-width: 600px) {
+  /* CSS declarations go here */
+  body {
+    font-size: 14px;
+  }
+  .container {
+    max-width: 500px;
+  }
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+}
+
 *
 {
   padding: 0;
@@ -66,7 +86,7 @@ body{
 /* Clear floats after the columns */
 .row:after {
   content: "";
-  display: table;
+  display: table-column;
   clear: both;
 }
 
@@ -108,8 +128,7 @@ body{
 /* Style all font awesome icons */
 .fa {
   padding: 20px;
-  font-size: 30px;
-  width: 50px;
+
   text-align: center;
   text-decoration: none;
 }
