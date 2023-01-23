@@ -92,7 +92,6 @@ body{
 
 .column1{
   padding:20px;
-  font-size: 20px;
   width: 25%;
 }
 .socials{
@@ -108,7 +107,6 @@ body{
 /* Style all font awesome icons */
 .fa {
   padding: 20px;
-  font-size: 30px;
   width: 50px;
   text-align: center;
   text-decoration: none;
