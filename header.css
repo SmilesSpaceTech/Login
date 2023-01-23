@@ -22,9 +22,9 @@ body{
   color: aliceblue;
 }
 .menu-bar ul li{
-  width: 80%;
-  margin: 2%;
-  padding: 2%;
+  width: 120px;
+  margin: 15px;
+  padding: 15px;
 }
 .menu-bar ul li a{
   text-decoration: none;
@@ -49,7 +49,7 @@ body{
   margin: 10px;
 }
 .menu-bar ul li:hover .sub-menu-1 ul li{
-  width: 800%;
+  width: 150px;
   padding: 10px;
   border-bottom: 1px dotted #fff;
   background: transparent;
@@ -91,13 +91,14 @@ body{
 }
 
 .column1{
-  padding: 10%;
+  padding:20px;
+  font-size: 20px;
   width: 25%;
 }
 .socials{
   background: brown;
   width: 100%;
-  height: auto;
+  height: 100px;
   display: grid;
   align-items: baseline;
   justify-content: center;
@@ -107,7 +108,8 @@ body{
 /* Style all font awesome icons */
 .fa {
   padding: 20px;
-  width: 300%;
+  font-size: 30px;
+  width: 50px;
   text-align: center;
   text-decoration: none;
 }
